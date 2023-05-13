@@ -61,7 +61,7 @@ export default function Content() {
       // this if block removes the "active" class from all other tabs when "all" is clicked
       if (c_tag == "all") {
          // removing the active class from all tabs
-         const tab_list = ["on_chain", "social", "token", "nft"];
+         const tab_list = ["on_chain", "social", "token", "NFT"];
          for (let i = 0; i < tab_list.length; i++) {
             const tabs_no = tab_list[i];
             const getTabs = document.querySelector(`.content .${tabs_no}`);
