@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans&display=swap');
+
+#root b, #root small, #root p, #root a {
+  font-family: 'Instrument Sans', sans-serif;
+}
+a{
+  text-decoration: none;
+  color: #C8CBCC;
+}
+a:hover{
+  color: #e6e6e6;
+}
+.active{
+  background: #065F46;
+}
