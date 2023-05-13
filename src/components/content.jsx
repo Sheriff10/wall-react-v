@@ -25,7 +25,7 @@ export default function Content() {
       return { icon, text, className };
    };
    const tArray = [
-      tBtnFunc("", "All", "all"),
+      tBtnFunc(<FaGripHorizontal />, "All", "all"),
       tBtnFunc(<FaGripHorizontal />, "Onchain", "on_chain"),
       tBtnFunc(<FaTwitter />, "Social", "social"),
       tBtnFunc(<FaDollarSign />, "Token", "token"),
@@ -61,7 +61,7 @@ export default function Content() {
       // this if block removes the "active" class from all other tabs when "all" is clicked
       if (c_tag == "all") {
          // removing the active class from all tabs
-         const tab_list = ["on_chain", "social", "token", "more"];
+         const tab_list = ["on_chain", "social", "token", "nft"];
          for (let i = 0; i < tab_list.length; i++) {
             const tabs_no = tab_list[i];
             const getTabs = document.querySelector(`.content .${tabs_no}`);
