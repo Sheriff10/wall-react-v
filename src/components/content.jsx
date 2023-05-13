@@ -29,7 +29,7 @@ export default function Content() {
       tBtnFunc(<FaGripHorizontal />, "Onchain", "on_chain"),
       tBtnFunc(<FaTwitter />, "Social", "social"),
       tBtnFunc(<FaDollarSign />, "Token", "token"),
-      tBtnFunc(<FaImage />, "NFT", "nft"),
+      tBtnFunc(<FaImage />, "NFT", "NFT"),
    ];
 
    // FILTER CONFIG
